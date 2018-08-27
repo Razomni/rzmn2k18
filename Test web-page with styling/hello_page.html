@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Welcome!
+		</title>
+		<style>
+
+		body {
+			margin: 0px;
+			background-color: white;
+		}
+
+		.header_holder {
+			height: 200px;
+			background-color: green;
+		}
+
+		.header_title {
+			margin: 0px;
+			width: 100%;
+			font-size: 40px;
+			padding-top: 80px;
+			color: white;
+			text-align: center;
+		}
+
+		.header_nav_holder {
+			height: 60px;
+			background-color: black;
+			display: block;
+		}
+
+		.header_nav_button {
+			width: 100px;
+			height: 40px;
+			text-decoration: none;
+			text-align: center;
+			color: white;
+			font-size: 20px;
+			float: left;
+    		border-style: none;
+    		padding-top: 20px;
+		}
+
+		.header_nav_button_right {
+			width: 100px;
+			height: 40px;
+			text-decoration: none;
+			text-align: center;
+			color: white;
+			font-size: 20px;
+			float: right;
+    		border-style: none;
+    		padding-top: 20px;
+		}
+
+		.header_nav_button:hover {
+			background-color: darkgrey;
+		}
+
+		.header_nav_button_right:hover {
+			background-color: darkgrey;
+		}
+
+		.main_table_layout {
+			display: table;
+			width: 100%;
+			max-width: 100%;
+			height: 500px;
+			background-color: yellow;
+		}
+
+		.left_table_column {
+			float: left;
+			width: 30%;
+			height: 100%;
+			background-color: darkgray;
+		}
+
+		.right_table_column {
+			float: left;
+			width: 70%;
+			height: 100%;
+			background-color: gray;
+		}
+
+		.avatar_holder {
+			display: block;
+			margin-top: 20px;
+			margin-right: auto;
+			margin-left: auto;
+			width: 90%;
+		}
+
+		.decr_avatar_holder {
+			display: block;
+			margin-top: 20px;
+			margin-right: auto;
+			margin-left: auto;
+			width: 90%;
+			text-align: justify;
+			font-size: 20px;
+		}
+
+		.media_layout {
+			height: 60px;
+			display: block;
+		}
+
+		.media_logo_layout {
+			display: block;
+			float: left;
+			margin-top: 20px;
+			margin-right: 60px;
+			height: 100%;
+		}
+
+		.media_logo_layout_last {
+			display: block;
+			float: left;
+			margin-top: 20px;
+			height: 100%;
+		}
+
+		</style>
+	</head>
+	<body>
+		<section id="header_section">
+			<div class="header_holder">
+				<p class="header_title">
+					Awesome header
+				</p>
+			</div>
+		</section>
+		<section id="header_navigation_section">
+			<nav class="header_nav_holder">
+				<a class="header_nav_button" href="">Push me!</a>
+				<a class="header_nav_button" href="">Push me!</a>
+				<a class="header_nav_button" href="">Push me!</a>
+				<a class="header_nav_button_right" href="">Push me!</a>
+			</nav>
+		</section>
+		<section id="main_content_table">
+			<div class="main_table_layout">
+				<div class="left_table_column">
+					<img class="avatar_holder" src="avatar.jpg">
+					<div class="decr_avatar_holder">
+						Description here. Text. Again text. More text. A quote &quot;%long smart saying%&quot;. Like and subscribe.
+					</div>
+					<div class="media_layout">
+						<a href="https://www.youtube.com/" target="_blank">
+							<img class="media_logo_layout" src="yt_logo.png">
+						</a>
+						<a href="https://www.twitch.tv/" target="_blank">
+							<img class="media_logo_layout" src="tw_logo.png">
+						</a>
+						<a href="https://www.pornhub.com/" target="_blank">
+							<img class="media_logo_layout_last" src="ph_logo.png">
+						</a>
+					</div>	
+				</div>
+				<div class="right_table_column">
+					<iframe width="100%" height="100%"
+						src="https://www.youtube.com/embed/Llxvrh21OEY">
+					</iframe>
+				</div>
+			</div>
+		</section>
+		<section id="footer_section">
+			<div class="header_holder">
+				<p class="header_title">
+					See ya!
+				</p>
+			</div>
+		</section>
+	</body>
+</html>
